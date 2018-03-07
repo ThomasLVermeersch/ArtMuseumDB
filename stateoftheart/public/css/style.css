@@ -1,0 +1,151 @@
+h1{
+	color: red;
+}
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+	height: 100%;
+	overflow:auto;
+	margin: 0 auto;
+	min-width: 1000px;
+}
+a{
+	style: none;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+table{
+	width: 100%;
+}
+#display-t{
+	width: 33%;
+	text-align: center;
+}
+
+#side-nav-div{
+	min-width: 200px;
+	position: fixed;
+	float: left;
+	width: 20%;
+	margin-left: 0px;
+	height: 100%;
+	background-color: #F4F4F4;
+}
+form.uk-search.uk-search-default{
+	width: 100%;
+	background-color: white;
+}
+
+.uk-search-icon{
+	margin-left: 20%;
+}
+#search-bar{
+	position: fixed;
+	margin-top: 0%;
+	margin-left: 20%;
+	float: right;
+	height: 50px;
+	width: 100%;
+}
+
+#site-icon{
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	background-color: #B0E0E6;
+	margin-top: 20px;
+}
+
+#icon-title{
+	color: white;
+	font-family: helvetica;
+	font-style: oblique;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 60px;
+}
+.navbar{
+	margin-top: 50px;
+	text-align: center;
+	min-width: 200px;
+	width: 20%;
+	width: 100%;
+}
+#submit-post{
+	display: block;
+	margin: auto;
+}
+#submit-button{
+	width: 200px;
+}
+
+.artist-modal {
+    width: 500px;
+    height: 700px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -250px;
+    background-color: #f1f3f4;
+    border-radius: 5px;
+    z-index: 11;
+    display: none;
+}
+
+.submit-modal {
+    width: 500px;
+    height: 700px;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -250px;
+    background-color: #f1f3f4;
+    border-radius: 5px;
+    z-index: 11;
+    display: none;
+}
+.overlay {
+	display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+#media-display{
+	float: right;
+	width: 80%;
+	height: 100%;
+	background-color: white;
+}
+
+#display-image{
+	margin-top: 50px;
+	margin-left: 12.5%;
+	width: 75%;
+	height: 75%;
+}
+#art-header{
+	text-align: center;
+}
+#art-table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.uk-button{
+	width: 200px;
+}
+p{
+	text-align: center;
+}
